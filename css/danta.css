@@ -61,10 +61,12 @@ h1 {
   color: orange;
 }
 
-/* #content .img-1 {
+#content .img-1 {
+  display: block;
+  margin: 0px auto 0px;
   width: 50%;
   height: 350px;
-} */
+}
 
 .p-1,
 .p-2,
