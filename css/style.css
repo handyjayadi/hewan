@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 
-#nav {
+/* #nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,8 +44,11 @@ a {
   text-decoration: none;
   list-style: none;
   margin-left: 10px;
-}
+} */
 /* navbar */
+.navbar {
+  display: none;
+}
 
 #jumbotron {
   width: 100%;
@@ -66,10 +69,15 @@ a {
 
 #tabel .container {
   width: 80%;
-  background-color: rebeccapurple;
   margin: 0 auto;
 }
 
 .tabel {
   width: 100%;
+}
+
+#footer .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
