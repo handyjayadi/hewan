@@ -56,11 +56,20 @@ a {
 }
 
 .content {
-  background-color: ;
   width: 400px;
   margin: 0 auto;
   position: absolute;
   top: 45%;
   left: 35%;
   text-align: center;
+}
+
+#tabel .container {
+  width: 80%;
+  background-color: rebeccapurple;
+  margin: 0 auto;
+}
+
+.tabel {
+  width: 100%;
 }
