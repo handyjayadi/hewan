@@ -4,7 +4,11 @@
   font-family: sans-serif;
 }
 
-/* #nav {
+body {
+  background-color: #f5f5f5;
+}
+
+#nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,6 +17,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
+  z-index: 99;
 }
 
 .navbar {
@@ -44,18 +49,32 @@ a {
   text-decoration: none;
   list-style: none;
   margin-left: 10px;
-} */
-/* navbar */
-.navbar {
-  display: none;
+  color: orangered;
 }
+/* navbar */
 
 #jumbotron {
   width: 100%;
-  height: 660px;
+  height: 100vh;
   background-image: url(../img/jumbotron.png);
   background-position: center;
   background-size: cover;
+}
+
+#jumbotron .content .btn-1 {
+  color: white;
+  background-color: orangered;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+#jumbotron .content .btn-2 {
+  color: black;
+  background-color: withe;
+  padding: 8px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .content {
@@ -65,6 +84,40 @@ a {
   top: 45%;
   left: 35%;
   text-align: center;
+}
+
+/* cari */
+#cari {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cari {
+  margin: 0 auto;
+}
+
+.input-cari {
+  display: block;
+  text-align: start;
+  margin: 0 auto;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-cari {
+  display: flex;
+  position: absolute;
+  top: 703px;
+  right: 340px;
+  height: 30px;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  background-color: orangered;
 }
 
 #tabel .container {
