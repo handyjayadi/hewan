@@ -125,9 +125,30 @@ a {
   margin: 0 auto;
 }
 
-.tabel {
-  width: 100%;
+.judul-tabel {
+  text-align: center;
+  margin-top: 50px;
 }
+
+.judul-tabel p {
+  margin: 16px;
+}
+
+.tabel {
+  margin: 32px;
+  width: 100%;
+  text-align: center;
+}
+
+.tabel th {
+  padding: 8px;
+}
+
+.tabel td {
+  padding: 5px;
+}
+
+/* cta */
 
 #footer .container {
   width: 80%;
