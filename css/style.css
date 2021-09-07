@@ -61,7 +61,7 @@ a {
   background-size: cover;
 }
 
-#jumbotron .content .btn-1 {
+.btn-1 {
   color: white;
   background-color: orangered;
   padding: 8px 15px;
@@ -69,7 +69,7 @@ a {
   border-radius: 10px;
 }
 
-#jumbotron .content .btn-2 {
+.btn-2 {
   color: black;
   background-color: withe;
   padding: 8px 15px;
@@ -110,7 +110,7 @@ a {
   display: flex;
   position: absolute;
   top: 703px;
-  right: 340px;
+  right: 348px;
   height: 30px;
   padding: 0 5px;
   text-align: center;
@@ -135,7 +135,7 @@ a {
 }
 
 .tabel {
-  margin: 32px;
+  margin-top: 32px;
   width: 100%;
   text-align: center;
 }
@@ -149,6 +149,41 @@ a {
 }
 
 /* cta */
+#cta {
+  background-color: grey;
+  width: 80%;
+  margin: 100px auto 0;
+  height: 130px;
+  border-radius: 15px;
+}
+
+#cta button {
+  display: block;
+}
+
+#cta .container {
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+.cta-tulis {
+  display: flex;
+  position: absolute;
+  top: 1200px;
+  right: 200px;
+}
+
+.cta-cari {
+  display: flex;
+  position: absolute;
+  top: 1200px;
+  right: 500px;
+}
+
+.h1-cta {
+  line-height: 130px;
+}
 
 #footer .container {
   width: 80%;
