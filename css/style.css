@@ -49,7 +49,13 @@ a {
   text-decoration: none;
   list-style: none;
   margin-left: 10px;
-  color: orangered;
+  color: black;
+}
+
+.daftar-nav {
+  background-color: orange;
+  padding: 5px 15px;
+  border-radius: 10px;
 }
 /* navbar */
 
@@ -63,7 +69,7 @@ a {
 
 .btn-1 {
   color: white;
-  background-color: orangered;
+  background-color: orange;
   padding: 8px 15px;
   border: none;
   border-radius: 10px;
@@ -107,13 +113,15 @@ input {
 
 .input-cari {
   width: 52%;
-  height: 30px;
+  height: 40px;
   border: none;
   border-radius: 10px 0px 0px 10px;
 }
 
 .btn-cari {
   width: 8%;
+  height: 40px;
+  top: -1px;
   left: -5px;
   padding: 0 5px;
   text-align: center;
@@ -122,7 +130,7 @@ input {
   margin-top: 0;
   outline: none;
   border-radius: 0px 10px 10px 0px;
-  background-color: orangered;
+  background-color: orange;
 }
 
 #tabel .container {
