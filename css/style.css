@@ -93,29 +93,34 @@ a {
 }
 
 .cari {
-  margin: 0 auto;
+  position: absolute;
+  top: 710px;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+input {
+  position: relative;
+  display: inline-block;
 }
 
 .input-cari {
-  display: block;
-  text-align: start;
-  margin: 0 auto;
-  width: 60%;
+  width: 52%;
   height: 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .btn-cari {
-  display: flex;
-  position: absolute;
-  top: 703px;
-  right: 348px;
-  height: 30px;
+  width: 8%;
+  left: -5px;
   padding: 0 5px;
   text-align: center;
   line-height: 30px;
   border: none;
+  margin-top: 0;
+  outline: none;
   border-radius: 0px 10px 10px 0px;
   background-color: orangered;
 }
