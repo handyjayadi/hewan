@@ -67,6 +67,10 @@ a {
   background-size: cover;
 }
 
+.btn-jumbotron {
+  margin-top: 8px;
+}
+
 .btn-1 {
   color: white;
   background-color: orange;
@@ -87,8 +91,9 @@ a {
   width: 400px;
   margin: 0 auto;
   position: absolute;
-  top: 45%;
-  left: 35%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -100,7 +105,7 @@ a {
 
 .cari {
   position: absolute;
-  top: 710px;
+  top: 740px;
   left: 62%;
   transform: translate(-50%, -50%);
   width: 60%;
@@ -140,7 +145,7 @@ input {
 
 .judul-tabel {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .judul-tabel p {
