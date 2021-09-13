@@ -20,7 +20,19 @@
 <!-- handy -->
 6. kambing
 
+• Alat & Bahan
+
+
+• Proses Pembuatan
+
+
 9. lobster
+
+• Alat & Bahan
+
+
+• Proses Pembuatan
+
 
 <!-- cahaya -->
 7. kepiting
