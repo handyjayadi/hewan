@@ -37,4 +37,17 @@
 <!-- cahaya -->
 7. kepiting
 
+• Alat & Bahan
+
+
+• Proses Pembuatan
+
+
+
 10. gurame 
+
+• Alat & Bahan
+
+
+• Proses Pembuatan
+
