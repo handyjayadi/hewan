@@ -176,7 +176,7 @@ input {
   text-align: center;
 }
 
-/* cta baru */
+/* cta */
 #cta {
   background-color: #e5e5e5;
   display: flex;
@@ -219,4 +219,4 @@ input {
   border-radius: 10px;
   margin: 16px auto 0;
 }
-/* akhir cta baru */
+/* akhir cta */
