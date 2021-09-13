@@ -2,6 +2,9 @@
 
 <!-- adi  -->
 5. lele
+• Alat & Bahan
+
+• Proses Pembuatan
 
 8. udang
 
