@@ -166,42 +166,6 @@ input {
   padding: 5px;
 }
 
-/* cta */
-/* #cta {
-  background-color: grey;
-  width: 80%;
-  margin: 100px auto 0;
-  height: 130px;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#cta button {
-  display: block;
-}
-
-#cta .container {
-  width: 90%;
-
-  margin: 0 auto;
-}
-
-.cta-tulis {
-  display: flex;
-  position: absolute;
-  top: 1200px;
-  right: 200px;
-}
-
-.cta-cari {
-  display: flex;
-  position: absolute;
-  top: 1200px;
-  right: 500px;
-} */
-
 .h1-cta {
   line-height: 130px;
 }
