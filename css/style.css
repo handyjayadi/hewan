@@ -137,7 +137,9 @@ input {
   border-radius: 0px 10px 10px 0px;
   background-color: orange;
 }
+/* akhir cari */
 
+/* tabel */
 #tabel .container {
   width: 80%;
   margin: 0 auto;
@@ -165,16 +167,7 @@ input {
 .tabel td {
   padding: 5px;
 }
-
-.h1-cta {
-  line-height: 130px;
-}
-
-#footer .container {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+/* akhir tabel */
 
 /* cta */
 #cta {
@@ -220,3 +213,9 @@ input {
   margin: 16px auto 0;
 }
 /* akhir cta */
+
+#footer .container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
