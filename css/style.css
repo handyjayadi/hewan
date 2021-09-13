@@ -167,12 +167,15 @@ input {
 }
 
 /* cta */
-#cta {
+/* #cta {
   background-color: grey;
   width: 80%;
   margin: 100px auto 0;
   height: 130px;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #cta button {
@@ -197,7 +200,7 @@ input {
   position: absolute;
   top: 1200px;
   right: 500px;
-}
+} */
 
 .h1-cta {
   line-height: 130px;
@@ -208,3 +211,48 @@ input {
   margin: 0 auto;
   text-align: center;
 }
+
+/* cta baru */
+#cta {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 150px;
+  margin: 100px auto;
+  border-radius: 15px;
+}
+
+#cta .container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.cta-h3 {
+  line-height: 70px;
+}
+
+.tulis-btn {
+  display: flex;
+  color: white;
+  background-color: orange;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin: 16px auto 0;
+}
+
+.review-btn {
+  display: flex;
+  color: black;
+  background-color: transparent;
+  padding: 7px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 16px auto 0;
+}
+/* akhir cta baru */
